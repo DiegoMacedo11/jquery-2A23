@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução jQuery</title>
+    <!--Chamando biblioteca jQuery-->
+    <script type="text/javascript" src="jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!--Funcionalidade da página-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".content").html("<img width= '500px'src= 'https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/09/GettyImages-1668971338-e1694439970587.jpg?w=1220&h=674&crop=1'>");
+        $("img").click(function(){
+            $(".hello").html("<h1>A imagem foi clicada</h1>")
+        })
+        });
+    </script>
+</head>
+
+<body>
+     <div class="content"></div>
+        <div class="hello"></div>
+    
+
+
+
+    
+    
+
+
+</body>
+
+</html>
